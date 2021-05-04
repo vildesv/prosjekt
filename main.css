@@ -3,15 +3,16 @@
   }
     
   body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'VT323', monospace;
+    background-color: rgb(205, 220, 230) ;
   }
     
   header {
-    background-color: #151513;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: #693E43; 
+    padding: 20px;
+    font-family: 'VT323', monospace;
+    text-align: left;
+    font-size: 40px;
+    color: #151513; 
   }
     
   section {
@@ -39,6 +40,7 @@
     -ms-flex: 3;
     flex: 3;
     padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
     text-align: left;
     background-color: rgb(205, 220, 230);
     height: max-content; 
@@ -51,10 +53,11 @@
   }
     
   footer {
-    background-color: rgb(128, 167, 167);
+    background-color: #693E43;
     padding: 10px;
     text-align: center;
-    color: white;
+    font-size: x-large;
+    color: rgb(205, 220, 230);
   }
     
   @media (max-width: 600px) {
